@@ -1,0 +1,42 @@
+import time
+
+from selenium import webdriver  # webdriver это и есть набор команд для управления браузером
+from selenium.webdriver.common.by import By  # импортируем класс By, который позволяет выбрать способ поиска элемента
+from selenium.webdriver.chrome.service import Service  # Импорт для управления службой ChromeDriver
+from selenium.webdriver.chrome.options import Options  # Импорт для настройки параметров запуска браузера
+from webdriver_manager.chrome import ChromeDriverManager  # Импорт для автоматической загрузки ChromeDriver
+
+# Настройка ChromeDriver
+
+chrome_options = Options()
+chrome_service = Service(ChromeDriverManager().install())
+
+
+# инициализируем драйвер браузера. После этой команды вы должны увидеть новое открытое окно браузера
+driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
+
+try:
+    # Метод get сообщает браузеру, что нужно открыть сайт по указанной ссылке
+    link = "https://suninjuly.github.io/text_input_task.html"
+    driver.get(link)
+    time.sleep(5)
+
+    # Метод find_element позволяет найти нужный элемент на сайте, указав путь к нему
+    # Метод принимает в качестве аргументов способ поиска и значение, по которому мы будем искать
+    # Ищем поле для ввода текста
+    textarea = driver.find_element(By.CSS_SELECTOR, ".textarea")
+
+    # Напишем текст ответа в найденное поле
+    textarea.send_keys("get()")
+    time.sleep(5)
+
+    # Найдем кнопку, которая отправляет введенное решение
+    submit_button = driver.find_element(By.CSS_SELECTOR, ".submit-submission")
+
+    # Скажем драйверу, что нужно нажать на кнопку. После этой команды мы должны увидеть сообщение о правильном ответе
+    submit_button.click()
+    time.sleep(5)
+
+finally:
+    # После выполнения всех действий мы должны не забыть закрыть окно браузера
+    driver.quit()
