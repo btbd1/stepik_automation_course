@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec248196-da0e-4af0-b11f-1a08a987f816" name="Changes" comment="22/01_start_SECTION_3" />
+    <list default="true" id="ec248196-da0e-4af0-b11f-1a08a987f816" name="Changes" comment="22/01_start_SECTION_3">
+      <change afterPath="$PROJECT_DIR$/3.2_final_step.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.2_step8-9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_abs_project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +39,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests in test_abs_project.py.executor": "Run",
     "Python.1.6_step10.executor": "Run",
     "Python.1.6_step11_peer_review.executor": "Run",
     "Python.1.6_step4.executor": "Run",
@@ -48,6 +54,7 @@
     "Python.2.3_step4.executor": "Run",
     "Python.2.3_step6.executor": "Run",
     "Python.2.4_step8.executor": "Run",
+    "Python.3.2_step8.executor": "Run",
     "Python.lesson6_step11.executor": "Run",
     "Python.test_registration (1).executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -59,6 +66,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Анна\PycharmProjects\Stepik_automation" />
       <recent name="C:\Users\Анна\PycharmProjects\Stepik_automatisation" />
     </key>
   </component>
@@ -86,7 +94,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737539028030</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="22/01_start_SECTION_3">
+      <option name="closed" value="true" />
+      <created>1737539190665</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737539190665</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
