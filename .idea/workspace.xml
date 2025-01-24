@@ -4,17 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec248196-da0e-4af0-b11f-1a08a987f816" name="Changes" comment="update selenium -&gt; 4.28.0">
+    <list default="true" id="ec248196-da0e-4af0-b11f-1a08a987f816" name="Changes" comment="moved to new directory">
       <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_fixture1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_fixture10a.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_fixture2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_fixture5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_fixture8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_task_run_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_xfail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-runners/test_fixture1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-runners/test_fixture10a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-runners/test_fixture2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-runners/test_fixture5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-runners/test_fixture8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-runners/test_task_run_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-runners/test_xfail.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_2_final_step.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_2_final_step.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.6_step10.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_sec_1/1.6_step10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.6_step11_peer_review.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_sec_1/1.6_step11_peer_review.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.6_step4.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_sec_1/1.6_step4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.6_step5.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_sec_1/1.6_step5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.6_step7.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_sec_1/1.6_step7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.6_step8.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_sec_1/1.6_step8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.1_step5.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_sec_2/2.1_step5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.1_step7.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_sec_2/2.1_step7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.2_step3.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_sec_2/2.2_step3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.2_step6.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_sec_2/2.2_step6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.2_step8.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_sec_2/2.2_step8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.3_step4.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_sec_2/2.3_step4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.3_step6.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_sec_2/2.3_step6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.4_step8.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_sec_2/2.4_step8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.2_step8-9.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-runners/3.2_step8-9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_2_final_step.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-runners/3_2_final_step.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_abs_project.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-runners/test_abs_project.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +99,12 @@
       <recent name="C:\Users\Анна\PycharmProjects\Stepik_automation" />
       <recent name="C:\Users\Анна\PycharmProjects\Stepik_automatisation" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Анна\PycharmProjects\Stepik_automation\selenium_sec_2" />
+      <recent name="C:\Users\Анна\PycharmProjects\Stepik_automation\test-runners" />
+      <recent name="C:\Users\Анна\PycharmProjects\Stepik_automation\selenium_sec_1" />
+      <recent name="C:\Users\Анна\PycharmProjects\Stepik_automation\pytest" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -132,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737632982807</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="moved to new directory">
+      <option name="closed" value="true" />
+      <created>1737714924640</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737714924640</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,6 +180,7 @@
     <MESSAGE value="22/01_start_SECTION_3" />
     <MESSAGE value="add new task 3_2" />
     <MESSAGE value="update selenium -&gt; 4.28.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="update selenium -&gt; 4.28.0" />
+    <MESSAGE value="moved to new directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="moved to new directory" />
   </component>
 </project>
