@@ -5,32 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec248196-da0e-4af0-b11f-1a08a987f816" name="Changes" comment="moved to new directory">
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-runners/test_fixture1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-runners/test_fixture10a.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-runners/test_fixture2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-runners/test_fixture5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-runners/test_fixture8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-runners/test_task_run_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-runners/test_xfail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-runners_sec_3/test_fixture7.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.6_step10.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_sec_1/1.6_step10.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.6_step11_peer_review.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_sec_1/1.6_step11_peer_review.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.6_step4.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_sec_1/1.6_step4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.6_step5.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_sec_1/1.6_step5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.6_step7.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_sec_1/1.6_step7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.6_step8.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_sec_1/1.6_step8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.1_step5.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_sec_2/2.1_step5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.1_step7.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_sec_2/2.1_step7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.2_step3.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_sec_2/2.2_step3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.2_step6.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_sec_2/2.2_step6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.2_step8.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_sec_2/2.2_step8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.3_step4.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_sec_2/2.3_step4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.3_step6.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_sec_2/2.3_step6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.4_step8.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_sec_2/2.4_step8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.2_step8-9.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-runners/3.2_step8-9.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_2_final_step.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-runners/3_2_final_step.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_abs_project.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-runners/test_abs_project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-runners_sec_3/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-runners_sec_3/conftest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,49 +39,73 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests in 3.2_final_step.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in 3_2_final_step.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in 3_3_for_view.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_abs_project.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_fixture1.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_fixture5.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1.6_step10.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1.6_step11_peer_review.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1.6_step4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1.6_step5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1.6_step7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1.6_step8.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2.1_step5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2.1_step7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2.2_step3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2.2_step6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2.2_step8.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2.3_step4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2.3_step6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2.4_step8.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3.2_step8.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lesson6_step11.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_registration (1).executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Анна/PycharmProjects/Stepik_automation&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_fixture7.test_guest_should_see_login_link.executor": "Run",
+    "Python tests.Python tests in 3.2_final_step.py.executor": "Run",
+    "Python tests.Python tests in 3_2_final_step.py.executor": "Run",
+    "Python tests.Python tests in 3_3_for_view.py.executor": "Run",
+    "Python tests.Python tests in test_abs_project.py.executor": "Run",
+    "Python tests.Python tests in test_fixture1.py.executor": "Run",
+    "Python tests.Python tests in test_fixture5.py.executor": "Run",
+    "Python.1.6_step10.executor": "Run",
+    "Python.1.6_step11_peer_review.executor": "Run",
+    "Python.1.6_step4.executor": "Run",
+    "Python.1.6_step5.executor": "Run",
+    "Python.1.6_step7.executor": "Run",
+    "Python.1.6_step8.executor": "Run",
+    "Python.2.1_step5.executor": "Run",
+    "Python.2.1_step7.executor": "Run",
+    "Python.2.2_step3.executor": "Run",
+    "Python.2.2_step6.executor": "Run",
+    "Python.2.2_step8.executor": "Run",
+    "Python.2.3_step4.executor": "Run",
+    "Python.2.3_step6.executor": "Run",
+    "Python.2.4_step8.executor": "Run",
+    "Python.3.2_step8.executor": "Run",
+    "Python.lesson6_step11.executor": "Run",
+    "Python.test_registration (1).executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Анна/PycharmProjects/Stepik_automation",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Анна\PycharmProjects\Stepik_automation" />
       <recent name="C:\Users\Анна\PycharmProjects\Stepik_automatisation" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Анна\PycharmProjects\Stepik_automation\selenium_sec_2" />
+      <recent name="C:\Users\Анна\PycharmProjects\Stepik_automation\test-runners_sec_3" />
       <recent name="C:\Users\Анна\PycharmProjects\Stepik_automation\test-runners" />
+      <recent name="C:\Users\Анна\PycharmProjects\Stepik_automation\selenium_sec_2" />
       <recent name="C:\Users\Анна\PycharmProjects\Stepik_automation\selenium_sec_1" />
       <recent name="C:\Users\Анна\PycharmProjects\Stepik_automation\pytest" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Python tests for test_fixture7.test_guest_should_see_login_link" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Stepik_automatisation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test-runners_sec_3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_fixture7.test_guest_should_see_login_link&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_fixture7.test_guest_should_see_login_link" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -162,7 +163,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737714924640</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="rename directory">
+      <option name="closed" value="true" />
+      <created>1737715150658</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1737715150658</updated>
+    </task>
+    <task id="LOCAL-00007" summary="moved to new directory">
+      <option name="closed" value="true" />
+      <created>1737715269803</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1737715269803</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,6 +197,7 @@
     <MESSAGE value="22/01_start_SECTION_3" />
     <MESSAGE value="add new task 3_2" />
     <MESSAGE value="update selenium -&gt; 4.28.0" />
+    <MESSAGE value="rename directory" />
     <MESSAGE value="moved to new directory" />
     <option name="LAST_COMMIT_MESSAGE" value="moved to new directory" />
   </component>
