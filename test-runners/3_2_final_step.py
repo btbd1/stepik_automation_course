@@ -11,6 +11,7 @@ from webdriver_manager.chrome import ChromeDriverManager  # Импорт для 
 class TestRegister(unittest.TestCase):  # создаем класс, хранящий методы для теста
     def check_registration_fields(self, page_number):  # прописываем в метод функцию
         chrome_options = Options()
+        # chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])  # для откл. избыт. оповещ-й
         chrome_service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
         link = f"http://suninjuly.github.io/registration{page_number}.html"
