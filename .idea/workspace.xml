@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec248196-da0e-4af0-b11f-1a08a987f816" name="Changes" comment="moved to new directory">
-      <change afterPath="$PROJECT_DIR$/test-runners_sec_3/test_fixture7.py" afterDir="false" />
+    <list default="true" id="ec248196-da0e-4af0-b11f-1a08a987f816" name="Changes" comment="new files">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_6_different_browsers/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_6_different_browsers/test_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-runners_sec_3/3.6_firefox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-runners_sec_3/test_reruns.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_section3_for_review/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_section3_for_review/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_section3_for_review/test_items.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-runners_sec_3/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-runners_sec_3/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-runners_sec_3/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +49,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for conftest.test_local_login_link.executor": "Run",
     "Python tests.Python tests for test_fixture7.test_guest_should_see_login_link.executor": "Run",
+    "Python tests.Python tests for test_logpass_not_for_GIT.test_login_stepik.executor": "Run",
     "Python tests.Python tests in 3.2_final_step.py.executor": "Run",
     "Python tests.Python tests in 3_2_final_step.py.executor": "Run",
     "Python tests.Python tests in 3_3_for_view.py.executor": "Run",
@@ -63,29 +73,47 @@
     "Python.2.3_step6.executor": "Run",
     "Python.2.4_step8.executor": "Run",
     "Python.3.2_step8.executor": "Run",
+    "Python.3.6_firefox.executor": "Run",
     "Python.lesson6_step11.executor": "Run",
     "Python.test_registration (1).executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Анна/PycharmProjects/Stepik_automation",
+    "last_opened_file_path": "C:/Users/Анна/PycharmProjects/Stepik_automation/test_section3_for_review",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Анна\PycharmProjects\Stepik_automation\test_section3_for_review" />
+      <recent name="C:\Users\Анна\PycharmProjects\Stepik_automation\test-runners_sec_3" />
       <recent name="C:\Users\Анна\PycharmProjects\Stepik_automation" />
       <recent name="C:\Users\Анна\PycharmProjects\Stepik_automatisation" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Анна\PycharmProjects\Stepik_automation\test_section3_for_review" />
+      <recent name="C:\Users\Анна\PycharmProjects\Stepik_automation" />
       <recent name="C:\Users\Анна\PycharmProjects\Stepik_automation\test-runners_sec_3" />
+      <recent name="C:\Users\Анна\PycharmProjects\Stepik_automation\3_6_different_browsers" />
       <recent name="C:\Users\Анна\PycharmProjects\Stepik_automation\test-runners" />
-      <recent name="C:\Users\Анна\PycharmProjects\Stepik_automation\selenium_sec_2" />
-      <recent name="C:\Users\Анна\PycharmProjects\Stepik_automation\selenium_sec_1" />
-      <recent name="C:\Users\Анна\PycharmProjects\Stepik_automation\pytest" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Python tests for conftest.test_local_login_link">
+    <configuration name="Python tests for conftest.test_local_login_link" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Stepik_automatisation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test-runners_sec_3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;conftest.test_local_login_link&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_fixture7.test_guest_should_see_login_link" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Stepik_automatisation" />
       <option name="ENV_FILES" value="" />
@@ -101,8 +129,25 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_logpass_not_for_GIT.test_login_stepik" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Stepik_automatisation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test-runners_sec_3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_logpass_not_for_GIT.test_login_stepik&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for conftest.test_local_login_link" />
+        <item itemvalue="Python tests.Python tests for test_logpass_not_for_GIT.test_login_stepik" />
         <item itemvalue="Python tests.Python tests for test_fixture7.test_guest_should_see_login_link" />
       </list>
     </recent_temporary>
@@ -179,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737715269803</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="new files">
+      <option name="closed" value="true" />
+      <created>1737747478223</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1737747478223</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,6 +252,7 @@
     <MESSAGE value="update selenium -&gt; 4.28.0" />
     <MESSAGE value="rename directory" />
     <MESSAGE value="moved to new directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved to new directory" />
+    <MESSAGE value="new files" />
+    <option name="LAST_COMMIT_MESSAGE" value="new files" />
   </component>
 </project>
